@@ -1,0 +1,146 @@
+/*
+	theme : Html 5;
+	Version : 1.0;
+	Date : 13 Oct 19;
+	Author : Brahim Azreg;
+
+
+*/
+
+body{
+	background-image: url('images/background.jpg');
+	background-color :#000309;
+	font-size: 85%;
+	font-family: tahoma;
+	line-height: 1.5;
+	text-align: left;
+
+}
+a{
+	text-decoration: none;
+}
+a:link,a:visited{color:#E68364;}
+a:hover,a:active{color:#C91F37;}
+
+.body{
+	margin:10px  auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainContent{
+	width: 70%;
+	float: left;
+}
+/*  -----------       Main header  ---------------*/
+.mainHeader img{
+	width: 100%;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+	height: 300px;
+}
+
+.mainHeader nav {
+	background-color: #ff4000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	height: 40px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	display: inline;
+}
+
+.mainHeader nav ul li  a:link , .mainHeader nav ul li  a:visited {
+	color:white;
+	padding:10px  60px;
+    display: inline-block;
+}
+
+
+.mainHeader nav ul li  a:hover, .mainHeader nav ul li  a:active {
+	color:white;
+	background-color: #C91F37;
+
+}
+
+/*  -----------       Main content  ---------------*/
+.top-content{
+	background-color: #fff;
+	padding: 3%;
+	margin-top: 3%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+.post_info{
+	font-size: 90%;
+	font-style: italic;
+	margin-top: -20px;
+	color: #999;
+
+}
+/*  -----------       Aside Bare  ---------------*/
+.asideBare{
+	background-color: #fff;
+	padding: 2% ;
+	margin: 2% 0 0 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 24%;
+    float: left;
+}
+/*  -----------       fouter  ---------------*/
+.fouter {
+	background-color: #ff4000;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+	height: 40px;
+	width: 100%;
+	float: left;
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+.piano{
+	width: 100%;
+	height: 200px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+
+}
+figure{
+	color: #999;
+	font-size: 90%;
+}
+/*  -----------       About html  ---------------*/
+.mainAbout{
+	margin-top: 50px;
+	text-align: center;
+	color : #044F67;
+	font-size: 16px;
+}
+
+/*  -----------       Contact html  ---------------*/
+
+
+.mainContact{
+	margin-top: 80px;
+	text-align: center;
+	color : #044F67;
+	font-size: 20px;
+}
